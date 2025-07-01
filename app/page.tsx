@@ -632,7 +632,7 @@ export default function Page() {
                         </div>
                     </div>
                     <p className="text-sm text-gray-500 mt-8" data-oid="2195p-.">
-                        © 2024 Dr. Samuel Dejene Abesha. All rights reserved.
+                        ErMax7 © 2025 Dr. Samuel Dejene Abesha. All rights reserved.
                     </p>
                 </div>
             </footer>
