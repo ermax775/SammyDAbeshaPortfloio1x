@@ -116,22 +116,22 @@ export default function Page() {
     return (
         <div
             className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 text-white overflow-x-hidden"
-            data-oid="-.xupvl"
+            data-oid="7gyp0pk"
         >
             {/* Navigation */}
             <nav
                 className="fixed top-0 w-full z-50 bg-black/20 backdrop-blur-lg border-b border-white/10"
-                data-oid="y858utj"
+                data-oid="-kbh-7."
             >
-                <div className="max-w-7xl mx-auto px-6 py-4" data-oid="-e27v.l">
-                    <div className="flex justify-between items-center" data-oid="4v3fuap">
+                <div className="max-w-7xl mx-auto px-6 py-4" data-oid="94-t4d4">
+                    <div className="flex justify-between items-center" data-oid="_tb9s0c">
                         <div
                             className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-cyan-300 bg-clip-text text-transparent"
-                            data-oid="27_6f0c"
+                            data-oid="13-vi6d"
                         >
                             Dr. Samuel Dejene Abesha
                         </div>
-                        <div className="hidden md:flex space-x-8" data-oid="sd_s5wv">
+                        <div className="hidden md:flex space-x-8" data-oid="o_auh72">
                             {['Home', 'About', 'Experience', 'Testimonials', 'Contact'].map(
                                 (item) => (
                                     <button
@@ -142,7 +142,7 @@ export default function Page() {
                                                 ? 'text-blue-400'
                                                 : ''
                                         }`}
-                                        data-oid="p3.i9h1"
+                                        data-oid="rore:.p"
                                     >
                                         {item}
                                         <span
@@ -151,7 +151,7 @@ export default function Page() {
                                                     ? 'w-full'
                                                     : 'w-0 group-hover:w-full'
                                             }`}
-                                            data-oid="_qv5_xx"
+                                            data-oid="nebalnr"
                                         ></span>
                                     </button>
                                 ),
@@ -160,7 +160,7 @@ export default function Page() {
                         <button
                             onClick={() => setIsMenuOpen(!isMenuOpen)}
                             className="md:hidden text-white"
-                            data-oid="-g9228g"
+                            data-oid="prgvep_"
                         >
                             ☰
                         </button>
@@ -172,30 +172,30 @@ export default function Page() {
             <section
                 ref={homeRef}
                 className="min-h-screen flex items-center justify-center relative pt-20"
-                data-oid="fs5vh19"
+                data-oid="tw1hh3."
             >
-                <div className="absolute inset-0 overflow-hidden" data-oid="4osxjp8">
+                <div className="absolute inset-0 overflow-hidden" data-oid="pkj0_vh">
                     <div
                         className="absolute top-1/4 left-1/4 w-64 h-64 bg-blue-500/20 rounded-full blur-3xl animate-pulse"
-                        data-oid="nhokgm:"
+                        data-oid="xf6em71"
                     ></div>
                     <div
                         className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-cyan-500/20 rounded-full blur-3xl animate-pulse delay-1000"
-                        data-oid="_6e:n_x"
+                        data-oid="cm_i80a"
                     ></div>
                     <div
                         className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-32 h-32 bg-white/10 rounded-full blur-2xl animate-bounce"
-                        data-oid="f9_.jv."
+                        data-oid="5idpsq2"
                     ></div>
                 </div>
 
                 <div
                     className={`text-center z-10 transition-all duration-1000 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
-                    data-oid="1gpt2ir"
+                    data-oid="vyux:::"
                 >
-                    <div className="mb-8 relative" data-oid="h1wi97c">
+                    <div className="mb-8 relative" data-oid="0n5nc1n">
                         {/* Animated Image Flipper */}
-                        <div className="relative w-64 h-64 mx-auto" data-oid="s0._5z8">
+                        <div className="relative w-64 h-64 mx-auto" data-oid="j-iovmt">
                             {doctorImages.map((image, index) => (
                                 <div
                                     key={index}
@@ -204,9 +204,9 @@ export default function Page() {
                                             ? 'opacity-100 scale-100 rotate-0'
                                             : 'opacity-0 scale-95 rotate-12'
                                     }`}
-                                    data-oid="e.sw7kt"
+                                    data-oid="iykpxui"
                                 >
-                                    <div className="relative w-full h-full" data-oid="yh5ymhi">
+                                    <div className="relative w-full h-full" data-oid="vaccyzx">
                                         <Image
                                             src={image}
                                             alt={`Dr. Samuel Dejene Abesha - Professional Photo ${index + 1}`}
@@ -217,13 +217,13 @@ export default function Page() {
                                                     'linear-gradient(135deg, #60a5fa, #67e8f9) 1',
                                             }}
                                             priority={index === 0}
-                                            data-oid="6r8u3c8"
+                                            data-oid="583--wf"
                                         />
 
                                         {/* Gradient overlay for better contrast */}
                                         <div
                                             className="absolute inset-0 bg-gradient-to-t from-blue-900/20 to-transparent rounded-full"
-                                            data-oid="m:f3bss"
+                                            data-oid="it7v5a5"
                                         ></div>
                                     </div>
                                 </div>
@@ -232,13 +232,13 @@ export default function Page() {
                             {/* Floating medical icons */}
                             <div
                                 className="absolute -top-4 -right-4 w-16 h-16 bg-green-400 rounded-full flex items-center justify-center text-2xl animate-bounce shadow-lg"
-                                data-oid="pbzn-l1"
+                                data-oid="r360mkf"
                             >
                                 🩺
                             </div>
                             <div
                                 className="absolute -bottom-2 -left-2 w-12 h-12 bg-blue-400 rounded-full flex items-center justify-center text-lg animate-pulse shadow-lg"
-                                data-oid="o78d92l"
+                                data-oid=":afh-84"
                             >
                                 ⚕️
                             </div>
@@ -246,7 +246,7 @@ export default function Page() {
                             {/* Image flip indicators */}
                             <div
                                 className="absolute -bottom-8 left-1/2 transform -translate-x-1/2 flex space-x-2"
-                                data-oid="ro858h8"
+                                data-oid=".gcia61"
                             >
                                 {doctorImages.map((_, index) => (
                                     <button
@@ -257,7 +257,7 @@ export default function Page() {
                                                 ? 'bg-blue-400 scale-125'
                                                 : 'bg-white/30 hover:bg-white/50'
                                         }`}
-                                        data-oid="pjve8qp"
+                                        data-oid="242olpb"
                                     />
                                 ))}
                             </div>
@@ -266,30 +266,30 @@ export default function Page() {
 
                     <h1
                         className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-400 via-cyan-300 to-blue-400 bg-clip-text text-transparent animate-pulse"
-                        data-oid="i3qqjh8"
+                        data-oid="a.::.d_"
                     >
                         Dr. Samuel Dejene Abesha
                     </h1>
-                    <p className="text-xl md:text-2xl text-blue-200 mb-4" data-oid="xhztlgh">
+                    <p className="text-xl md:text-2xl text-blue-200 mb-4" data-oid="gyu-t3h">
                         Medical Doctor & Healthcare Professional
                     </p>
-                    <p className="text-lg text-gray-300 mb-8" data-oid="9jjnyeo">
+                    <p className="text-lg text-gray-300 mb-8" data-oid="fx28eud">
                         Addis Ababa, Ethiopia • 5+ Years Experience
                     </p>
 
                     <div
                         className="flex flex-col sm:flex-row gap-4 justify-center"
-                        data-oid="p4xl1tn"
+                        data-oid="2uk.ruj"
                     >
                         <button
                             className="px-8 py-4 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-full font-semibold hover:from-blue-600 hover:to-cyan-600 transform hover:scale-105 transition-all duration-300 shadow-lg"
-                            data-oid="c4yqp-g"
+                            data-oid="shk-z7-"
                         >
                             Download CV
                         </button>
                         <button
                             className="px-8 py-4 border-2 border-blue-400 rounded-full font-semibold hover:bg-blue-400 hover:text-slate-900 transform hover:scale-105 transition-all duration-300"
-                            data-oid="cyb3y6:"
+                            data-oid="g_qz4yy"
                         >
                             Schedule Appointment
                         </button>
@@ -298,19 +298,19 @@ export default function Page() {
             </section>
 
             {/* About Section */}
-            <section ref={aboutRef} className="py-20 px-6" data-oid="__6-:jb">
-                <div className="max-w-6xl mx-auto" data-oid="ezl8_6s">
+            <section ref={aboutRef} className="py-20 px-6" data-oid="epifrps">
+                <div className="max-w-6xl mx-auto" data-oid="8q68fvh">
                     <h2
                         className="text-4xl font-bold text-center mb-16 bg-gradient-to-r from-blue-400 to-cyan-300 bg-clip-text text-transparent"
-                        data-oid="gy_lkzs"
+                        data-oid="q_gsxup"
                     >
                         About Me
                     </h2>
-                    <div className="grid md:grid-cols-2 gap-12 items-center" data-oid="8axa8m2">
-                        <div data-oid="60lfj88">
+                    <div className="grid md:grid-cols-2 gap-12 items-center" data-oid="xazmn3b">
+                        <div data-oid="-1wlpbh">
                             <p
                                 className="text-lg text-gray-300 mb-6 leading-relaxed"
-                                data-oid="fcafi08"
+                                data-oid="vooad4a"
                             >
                                 I am a dedicated medical professional with over 5 years of
                                 experience serving the healthcare needs of Addis Ababa and
@@ -320,74 +320,74 @@ export default function Page() {
                             </p>
                             <p
                                 className="text-lg text-gray-300 mb-6 leading-relaxed"
-                                data-oid="23:t5k:"
+                                data-oid="gw0g2_j"
                             >
                                 Currently practicing at three prestigious medical institutions in
                                 Addis Ababa, I specialize in emergency medicine, general practice,
                                 and community healthcare. My commitment extends beyond clinical
                                 practice to include extensive volunteer work and medical education.
                             </p>
-                            <div className="grid grid-cols-2 gap-4" data-oid="13m6_s9">
+                            <div className="grid grid-cols-2 gap-4" data-oid="sl:g9r8">
                                 <div
                                     className="bg-white/10 p-4 rounded-lg backdrop-blur-sm"
-                                    data-oid="5ble2pg"
+                                    data-oid="tiotuoo"
                                 >
                                     <div
                                         className="text-3xl font-bold text-blue-400"
-                                        data-oid="qhcndvv"
+                                        data-oid="_h_b:wp"
                                     >
                                         5+
                                     </div>
-                                    <div className="text-sm text-gray-300" data-oid="-p9i78x">
+                                    <div className="text-sm text-gray-300" data-oid="sycpy7v">
                                         Years Experience
                                     </div>
                                 </div>
                                 <div
                                     className="bg-white/10 p-4 rounded-lg backdrop-blur-sm"
-                                    data-oid="5fbks4c"
+                                    data-oid=".oc2uxy"
                                 >
                                     <div
                                         className="text-3xl font-bold text-cyan-400"
-                                        data-oid="jry_:5k"
+                                        data-oid="gugq_06"
                                     >
                                         3
                                     </div>
-                                    <div className="text-sm text-gray-300" data-oid="yr58cka">
+                                    <div className="text-sm text-gray-300" data-oid=":udx300">
                                         Current Positions
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="relative" data-oid="lgm73ch">
+                        <div className="relative" data-oid="jprv:h-">
                             {/* Secondary image display with hover effect */}
                             <div
                                 className="relative w-full h-96 rounded-2xl overflow-hidden group"
-                                data-oid="989cj5z"
+                                data-oid="5ggd1oi"
                             >
                                 <Image
                                     src={doctorImages[1 - currentImageIndex]}
                                     alt="Dr. Samuel Dejene Abesha - About Section"
                                     fill
                                     className="object-cover transition-transform duration-700 group-hover:scale-110"
-                                    data-oid="ldukat0"
+                                    data-oid="agdz_g8"
                                 />
 
                                 <div
                                     className="absolute inset-0 bg-gradient-to-br from-blue-500/40 to-cyan-500/40 group-hover:from-blue-500/20 group-hover:to-cyan-500/20 transition-all duration-500"
-                                    data-oid="q5wc40l"
+                                    data-oid="gfo6u:9"
                                 ></div>
 
                                 {/* Floating elements */}
                                 <div
                                     className="absolute top-4 right-4 w-16 h-16 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center text-2xl animate-pulse"
-                                    data-oid="yxlff7o"
+                                    data-oid="7bmjmar"
                                 >
                                     🏥
                                 </div>
                             </div>
                             <div
                                 className="absolute -bottom-4 -right-4 w-24 h-24 bg-green-500 rounded-full flex items-center justify-center text-3xl animate-bounce shadow-xl"
-                                data-oid="zc7i-nw"
+                                data-oid="v9xhomj"
                             >
                                 ⚕️
                             </div>
@@ -397,47 +397,47 @@ export default function Page() {
             </section>
 
             {/* Experience Section */}
-            <section ref={experienceRef} className="py-20 px-6 bg-black/20" data-oid="o--9nc5">
-                <div className="max-w-6xl mx-auto" data-oid="c.xutqt">
+            <section ref={experienceRef} className="py-20 px-6 bg-black/20" data-oid="2lsiq-a">
+                <div className="max-w-6xl mx-auto" data-oid="_:q0w2o">
                     <h2
                         className="text-4xl font-bold text-center mb-16 bg-gradient-to-r from-blue-400 to-cyan-300 bg-clip-text text-transparent"
-                        data-oid="l:remu8"
+                        data-oid="s65ixyi"
                     >
                         Professional Experience
                     </h2>
-                    <div className="space-y-8" data-oid="tm6vucc">
+                    <div className="space-y-8" data-oid="_7u7gef">
                         {experiences.map((exp, index) => (
                             <div
                                 key={index}
                                 className={`bg-white/10 backdrop-blur-sm rounded-xl p-6 transform hover:scale-105 transition-all duration-300 ${exp.current ? 'border-l-4 border-green-400' : ''}`}
-                                data-oid="wf8k85u"
+                                data-oid="actohek"
                             >
                                 <div
                                     className="flex flex-col md:flex-row md:items-center md:justify-between mb-4"
-                                    data-oid="g:-2h19"
+                                    data-oid="bqed4mg"
                                 >
-                                    <div data-oid="gkf1958">
+                                    <div data-oid="wuksd2.">
                                         <h3
                                             className="text-xl font-bold text-blue-400"
-                                            data-oid="fmoljyt"
+                                            data-oid="yja3484"
                                         >
                                             {exp.title}
                                         </h3>
-                                        <p className="text-lg text-white" data-oid="ang8cvl">
+                                        <p className="text-lg text-white" data-oid="feb4ygu">
                                             {exp.hospital}
                                         </p>
                                     </div>
-                                    <div className="text-right" data-oid="eovkhn3">
-                                        <p className="text-gray-300" data-oid="o6ss-3u">
+                                    <div className="text-right" data-oid="gml.3y6">
+                                        <p className="text-gray-300" data-oid="fn_o.9d">
                                             {exp.period}
                                         </p>
-                                        <p className="text-sm text-gray-400" data-oid="5k:d4qc">
+                                        <p className="text-sm text-gray-400" data-oid="lwa-ax8">
                                             {exp.location}
                                         </p>
                                         {exp.current && (
                                             <span
                                                 className="inline-block bg-green-500 text-xs px-2 py-1 rounded-full mt-1"
-                                                data-oid="379j9o_"
+                                                data-oid="te43j8w"
                                             >
                                                 Current
                                             </span>
@@ -451,29 +451,29 @@ export default function Page() {
             </section>
 
             {/* Volunteer Work */}
-            <section className="py-20 px-6" data-oid="_s-q:w7">
-                <div className="max-w-6xl mx-auto" data-oid="8qubxw-">
+            <section className="py-20 px-6" data-oid="i_o_eri">
+                <div className="max-w-6xl mx-auto" data-oid="774mkhu">
                     <h2
                         className="text-4xl font-bold text-center mb-16 bg-gradient-to-r from-blue-400 to-cyan-300 bg-clip-text text-transparent"
-                        data-oid="tvvmlov"
+                        data-oid="het72m4"
                     >
                         Volunteer Services
                     </h2>
-                    <div className="grid md:grid-cols-2 gap-6" data-oid="7iwfu19">
+                    <div className="grid md:grid-cols-2 gap-6" data-oid="l-n7903">
                         {volunteerWork.map((work, index) => (
                             <div
                                 key={index}
                                 className="bg-gradient-to-r from-blue-500/20 to-cyan-500/20 p-6 rounded-xl backdrop-blur-sm hover:from-blue-500/30 hover:to-cyan-500/30 transition-all duration-300"
-                                data-oid=":8jwi9i"
+                                data-oid="ehmequk"
                             >
-                                <div className="flex items-center" data-oid="kqcn.xd">
+                                <div className="flex items-center" data-oid="s5asv1o">
                                     <div
                                         className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-xl mr-4"
-                                        data-oid="re0bnft"
+                                        data-oid="km:2hnh"
                                     >
                                         🤝
                                     </div>
-                                    <p className="text-white" data-oid="5i09uar">
+                                    <p className="text-white" data-oid="g.ps3i0">
                                         {work}
                                     </p>
                                 </div>
@@ -484,32 +484,32 @@ export default function Page() {
             </section>
 
             {/* Testimonials */}
-            <section ref={testimonialsRef} className="py-20 px-6 bg-black/20" data-oid="zd.2v96">
-                <div className="max-w-6xl mx-auto" data-oid="jb_ml1r">
+            <section ref={testimonialsRef} className="py-20 px-6 bg-black/20" data-oid="i133-tx">
+                <div className="max-w-6xl mx-auto" data-oid="n4wj7dr">
                     <h2
                         className="text-4xl font-bold text-center mb-16 bg-gradient-to-r from-blue-400 to-cyan-300 bg-clip-text text-transparent"
-                        data-oid="sny2odl"
+                        data-oid="yc-_p:r"
                     >
                         Testimonials
                     </h2>
-                    <div className="grid md:grid-cols-3 gap-8" data-oid="y80u_tn">
+                    <div className="grid md:grid-cols-3 gap-8" data-oid="05o:nbc">
                         {testimonials.map((testimonial, index) => (
                             <div
                                 key={index}
                                 className="bg-white/10 backdrop-blur-sm p-6 rounded-xl hover:bg-white/20 transition-all duration-300"
-                                data-oid="ilsyaz5"
+                                data-oid="zpc1kde"
                             >
-                                <div className="text-4xl text-blue-400 mb-4" data-oid="18v:wij">
+                                <div className="text-4xl text-blue-400 mb-4" data-oid="csuqfgk">
                                     "
                                 </div>
-                                <p className="text-gray-300 mb-6 italic" data-oid="e2idmxj">
+                                <p className="text-gray-300 mb-6 italic" data-oid="mm7n5gh">
                                     {testimonial.text}
                                 </p>
-                                <div data-oid="c49rzpa">
-                                    <p className="font-bold text-white" data-oid="l6fq:4f">
+                                <div data-oid="w33kynk">
+                                    <p className="font-bold text-white" data-oid="zok69-m">
                                         {testimonial.name}
                                     </p>
-                                    <p className="text-sm text-blue-400" data-oid="0487lzs">
+                                    <p className="text-sm text-blue-400" data-oid="z4w.ddq">
                                         {testimonial.role}
                                     </p>
                                 </div>
@@ -520,37 +520,37 @@ export default function Page() {
             </section>
 
             {/* Contact & Appointment Section */}
-            <section ref={contactRef} className="py-20 px-6" data-oid=":gfmh7_">
-                <div className="max-w-4xl mx-auto text-center" data-oid="y75e-ee">
+            <section ref={contactRef} className="py-20 px-6" data-oid="2vog77u">
+                <div className="max-w-4xl mx-auto text-center" data-oid="yrirnse">
                     <h2
                         className="text-4xl font-bold mb-8 bg-gradient-to-r from-blue-400 to-cyan-300 bg-clip-text text-transparent"
-                        data-oid="w0gug7_"
+                        data-oid=".8m3o4c"
                     >
                         Get In Touch
                     </h2>
-                    <p className="text-xl text-gray-300 mb-12" data-oid="pw.pn_q">
+                    <p className="text-xl text-gray-300 mb-12" data-oid="o54.702">
                         Ready to discuss your healthcare needs or explore professional
                         opportunities?
                     </p>
 
-                    <div className="grid md:grid-cols-2 gap-8 mb-12" data-oid="_f1:bhx">
+                    <div className="grid md:grid-cols-2 gap-8 mb-12" data-oid="zq0lue5">
                         <div
                             className="bg-gradient-to-br from-blue-500/20 to-cyan-500/20 p-8 rounded-xl backdrop-blur-sm"
-                            data-oid="dq0z03o"
+                            data-oid="eqg_72m"
                         >
-                            <div className="text-4xl mb-4" data-oid="4.gn00l">
+                            <div className="text-4xl mb-4" data-oid="z2lopes">
                                 📋
                             </div>
-                            <h3 className="text-xl font-bold mb-4" data-oid="piuzzcr">
+                            <h3 className="text-xl font-bold mb-4" data-oid="n54k6ax">
                                 Medical Consultation
                             </h3>
-                            <p className="text-gray-300 mb-6" data-oid="j:7y7hc">
+                            <p className="text-gray-300 mb-6" data-oid="k2cbn2y">
                                 Schedule an appointment for professional medical consultation and
                                 healthcare services.
                             </p>
                             <button
                                 className="px-6 py-3 bg-blue-500 rounded-full hover:bg-blue-600 transition-colors duration-300"
-                                data-oid="3uyetj0"
+                                data-oid="za7pzrm"
                             >
                                 Book Consultation
                             </button>
@@ -558,21 +558,21 @@ export default function Page() {
 
                         <div
                             className="bg-gradient-to-br from-cyan-500/20 to-blue-500/20 p-8 rounded-xl backdrop-blur-sm"
-                            data-oid="qxrhps7"
+                            data-oid="in.1-0t"
                         >
-                            <div className="text-4xl mb-4" data-oid="4lnvy3b">
+                            <div className="text-4xl mb-4" data-oid="ypicm:z">
                                 💼
                             </div>
-                            <h3 className="text-xl font-bold mb-4" data-oid="te5hs25">
+                            <h3 className="text-xl font-bold mb-4" data-oid="p2110ra">
                                 Professional Discussion
                             </h3>
-                            <p className="text-gray-300 mb-6" data-oid="fqnjxf_">
+                            <p className="text-gray-300 mb-6" data-oid="ues9i37">
                                 Connect for professional opportunities, collaborations, or career
                                 discussions.
                             </p>
                             <button
                                 className="px-6 py-3 bg-cyan-500 rounded-full hover:bg-cyan-600 transition-colors duration-300"
-                                data-oid=".mxoqbq"
+                                data-oid="r3aqopb"
                             >
                                 Schedule Meeting
                             </button>
@@ -581,17 +581,17 @@ export default function Page() {
 
                     <div
                         className="flex flex-col sm:flex-row gap-4 justify-center"
-                        data-oid="h.qzkbu"
+                        data-oid="5fux48y"
                     >
                         <button
                             className="px-8 py-4 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-full font-semibold hover:from-blue-600 hover:to-cyan-600 transform hover:scale-105 transition-all duration-300 shadow-lg"
-                            data-oid="w_g.yr8"
+                            data-oid="wy1f7x6"
                         >
                             📄 Download Resume
                         </button>
                         <button
                             className="px-8 py-4 border-2 border-blue-400 rounded-full font-semibold hover:bg-blue-400 hover:text-slate-900 transform hover:scale-105 transition-all duration-300"
-                            data-oid="9fiyxji"
+                            data-oid="if.x:sb"
                         >
                             📧 Send Email
                         </button>
@@ -600,38 +600,38 @@ export default function Page() {
             </section>
 
             {/* Footer */}
-            <footer className="py-12 px-6 bg-black/40 border-t border-white/10" data-oid="geuoywn">
-                <div className="max-w-6xl mx-auto text-center" data-oid="v5on.tn">
+            <footer className="py-12 px-6 bg-black/40 border-t border-white/10" data-oid="c5furdl">
+                <div className="max-w-6xl mx-auto text-center" data-oid="gg806hv">
                     <div
                         className="text-2xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-cyan-300 bg-clip-text text-transparent"
-                        data-oid=":m5i5s6"
+                        data-oid="7kydit_"
                     >
                         Dr. Samuel Dejene Abesha
                     </div>
-                    <p className="text-gray-400 mb-6" data-oid="atpd8a4">
+                    <p className="text-gray-400 mb-6" data-oid=":stgiue">
                         Dedicated to Excellence in Healthcare • Addis Ababa, Ethiopia
                     </p>
-                    <div className="flex justify-center space-x-6" data-oid="c4d-k.p">
+                    <div className="flex justify-center space-x-6" data-oid=".e:wfuw">
                         <div
                             className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors cursor-pointer"
-                            data-oid="33vj1ru"
+                            data-oid="edsrwwr"
                         >
                             📧
                         </div>
                         <div
                             className="w-12 h-12 bg-cyan-500 rounded-full flex items-center justify-center hover:bg-cyan-600 transition-colors cursor-pointer"
-                            data-oid="iqcii36"
+                            data-oid="ieb95dp"
                         >
                             📱
                         </div>
                         <div
                             className="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center hover:bg-green-600 transition-colors cursor-pointer"
-                            data-oid="3ivzf1r"
+                            data-oid="o9:awg-"
                         >
                             💼
                         </div>
                     </div>
-                    <p className="text-sm text-gray-500 mt-8" data-oid="g3zil5f">
+                    <p className="text-sm text-gray-500 mt-8" data-oid="2195p-.">
                         © 2024 Dr. Samuel Dejene Abesha. All rights reserved.
                     </p>
                 </div>
